@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   return (
@@ -8,10 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-lg gradient-secondary flex items-center justify-center">
-                <span className="text-secondary-foreground font-heading font-bold text-lg">C</span>
-              </div>
-              <span className="font-heading font-bold text-xl">Crestsow</span>
+              <img src={logo} alt="Crestsow" className="h-12 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Empowering students with industry-ready skills through comprehensive training, internships, and real-world project experience.
