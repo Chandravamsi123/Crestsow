@@ -38,8 +38,8 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4">Contact</h4>
             <div className="flex flex-col gap-3 text-sm text-primary-foreground/70">
-              <div className="flex items-center gap-2"><Mail size={16} /> info@crestsow.com</div>
-              <div className="flex items-center gap-2"><Phone size={16} /> +91 98765 43210</div>
+              <div className="flex items-center gap-2"><Mail size={16} /> crestsow@gmail.com</div>
+              <div className="flex items-center gap-2"><Phone size={16} /> +91 93922 52448</div>
               <div className="flex items-center gap-2"><MapPin size={16} /> Hyderabad, India</div>
             </div>
           </div>
