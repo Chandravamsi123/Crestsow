@@ -10,8 +10,8 @@ import Footer from "@/components/Footer";
 import SectionHeading from "@/components/SectionHeading";
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "info@crestsow.com" },
-  { icon: Phone, label: "Phone", value: "+91 98765 43210" },
+  { icon: Mail, label: "Email", value: "crestsow@gmail.com" },
+  { icon: Phone, label: "Phone", value: "+91 9392252448" },
   { icon: MapPin, label: "Address", value: "Hyderabad, Telangana, India" },
 ];
 
